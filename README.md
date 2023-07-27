@@ -1,6 +1,6 @@
 # Roundabout-Replication-Package
-The package includes the codes and simulation results related to the manuscript 'Evaluation of platooning configurations for connected and automated vehicles at an isolated roundabout in a mixed traffic environment'.
-Main codes are written in python and matlab.
+The package includes the codes (Codes.rar) and simulation results (simulation results.rar) related to the manuscript 'Evaluation of platooning configurations for connected and automated vehicles at an isolated roundabout in a mixed traffic environment'.
+Main codes are written in Python and Matlab.
 Here are the explanations for the 'Codes.rar'.
 1. 'runner_flow.py' is the main code. Before running the code, you should download 'SUMO' simulation software (can be downloaded in https://sumo.dlr.de/docs/Downloads.php) and the python package 'TraCI' (can be downloaded in https://pypi.org/project/traci/), and create necessary files required by the 'SUMO', such as the 'road network' file, and the 'routes' file. The 'road network' file is created by using the embedded software in SUMO, by manually create a road network. The 'routes' file is created by generating a xml file through the python code 'generateRoutes.py'. Besides, in 'runner_flow', you can change the three investigated platoon configurations, as described in the codes, including types of platoons, the maximum platoon size, and platoon willingness. The whole simulation step is also described in the manuscript.
 2. 'generateRoutes.py' is for generating routes in your network. In this file, you can manually change the 'turning percentage', 'traffic flow', and 'penetration rate'.
